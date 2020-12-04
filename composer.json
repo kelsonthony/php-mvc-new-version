@@ -1,0 +1,18 @@
+{
+    "name": "kelsonthony/php-standard-mvc",
+    "description": "PHP Standard MVC",
+    "authors": [
+        {
+            "name": "Kelson Anthony",
+            "email": "k.thony@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/"
+        }
+    }
+}
